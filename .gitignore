@@ -1,0 +1,26 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+!terraform.tfvars.example
+.terraform.lock.hcl.bak
+
+# Secrets and keys
+*.pem
+*.key
+.env
+*.env
+credentials
+.aws/
+
+# Ansible
+*.retry
+vault_pass*
+
+# OS and editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
